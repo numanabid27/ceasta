@@ -1,0 +1,35 @@
+.header_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.nav_list{
+    display: flex;
+    gap: 44px;
+}
+.nav_list a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav_logo img{
+    max-width: 100%;
+}
+.nav_btn{
+    display: flex;
+    gap: 18px;
+}
+.nav_btn a{
+    border: 1px solid #77553D;
+    color: #000;
+    border-radius: 5px;
+    padding: 12px 19px;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.nav_btn a:hover{
+    background-color: #77553D;
+    color: #fff;
+}
